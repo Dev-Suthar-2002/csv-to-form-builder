@@ -1,0 +1,12 @@
+product_id,section,field_name,label,input_type,options,required,order,placeholder,default_value
+auto_insurance,Personal Information,full_name,Full name,text,,true,1,e.g. Jane Doe,
+auto_insurance,Personal Information,email,Email address,email,,true,2,e.g. jane@example.com,
+auto_insurance,Personal Information,phone,Phone number,tel,,true,3,e.g. 555-123-4567,
+auto_insurance,Personal Information,date_of_birth,Date of birth,date,,true,4,,
+auto_insurance,Vehicle Details,vehicle_make,Vehicle make,select,Toyota|Honda|Ford|BMW|Other,true,1,,
+auto_insurance,Vehicle Details,vehicle_year,Vehicle year,number,,true,2,e.g. 2020,
+auto_insurance,Vehicle Details,vehicle_usage,Primary use,radio,Personal|Business|Both,true,3,,Personal
+auto_insurance,Vehicle Details,anti_theft_device,Has anti-theft device,checkbox,,false,4,,false
+auto_insurance,Coverage Preferences,coverage_type,Coverage type,radio,Liability only|Full coverage,true,1,,
+auto_insurance,Coverage Preferences,deductible,Preferred deductible,select,250|500|1000|2500,true,2,,500
+auto_insurance,Coverage Preferences,additional_notes,Additional notes,textarea,,false,3,Anything else we should know?,
