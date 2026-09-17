@@ -1,0 +1,11 @@
+product_id,section,field_name,label,input_type,options,required,order,placeholder,default_value
+home_insurance,Homeowner Information,full_name,Full name,text,,true,1,e.g. Jane Doe,
+home_insurance,Homeowner Information,email,Email address,email,,true,2,e.g. jane@example.com,
+home_insurance,Homeowner Information,phone,Phone number,tel,,true,3,e.g. 555-123-4567,
+home_insurance,Property Details,property_type,Property type,select,Single Family|Condo|Townhouse|Multi-Family,true,1,,
+home_insurance,Property Details,year_built,Year built,number,,true,2,e.g. 1998,
+home_insurance,Property Details,square_footage,Square footage (sq ft),number,,true,3,e.g. 1800,
+home_insurance,Property Details,has_security_system,Has a security system,checkbox,,false,4,,false
+home_insurance,Coverage Preferences,coverage_amount,Desired coverage amount,select,100000|250000|500000|750000|1000000,true,1,,250000
+home_insurance,Coverage Preferences,policy_type,Policy type,radio,HO-3 Standard|HO-5 Comprehensive,true,2,,
+home_insurance,Coverage Preferences,additional_notes,Additional notes,textarea,,false,3,Anything else we should know?,

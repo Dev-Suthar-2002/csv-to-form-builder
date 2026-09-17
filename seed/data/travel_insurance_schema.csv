@@ -1,0 +1,14 @@
+product_id,section,field_name,label,input_type,options,required,order,placeholder,default_value
+travel_insurance,Traveler Information,full_name,Full name,text,,true,1,e.g. Jane Doe,
+travel_insurance,Traveler Information,email,Email address,email,,true,2,e.g. jane@example.com,
+travel_insurance,Traveler Information,phone,Phone number,tel,,true,3,e.g. 555-123-4567,
+travel_insurance,Traveler Information,date_of_birth,Date of birth,date,,true,4,,
+travel_insurance,Trip Details,destination_country,Destination country,text,,true,1,e.g. Italy,
+travel_insurance,Trip Details,departure_date,Departure date,date,,true,2,,
+travel_insurance,Trip Details,return_date,Return date,date,,true,3,,
+travel_insurance,Trip Details,trip_type,Trip type,radio,Single Trip|Multi-Trip Annual,true,4,,Single Trip
+travel_insurance,Coverage & Travelers,number_of_travelers,Number of travelers,number,,true,1,e.g. 2,
+travel_insurance,Coverage & Travelers,coverage_level,Coverage level,select,Basic|Standard|Premium,true,2,,Standard
+travel_insurance,Coverage & Travelers,pre_existing_conditions,Has pre-existing medical conditions,checkbox,,false,3,,false
+travel_insurance,Coverage & Travelers,trip_cost,Total trip cost (USD),number,,true,4,e.g. 3000,
+travel_insurance,Coverage & Travelers,additional_notes,Additional notes,textarea,,false,5,Anything else we should know?,
